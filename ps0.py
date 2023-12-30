@@ -5,6 +5,16 @@ try:
     intX = int (user_in)
 except ValueError :
     print("Not a valid number")
+    exit()
     
-user_in = input("Enter number y:")
+user_in = input("Enter number y: ")
+try:
+    intY = int (user_in)
+except ValueError :
+    print("Not a valid number")
+    exit()
+#powerX = intX**intY
+print("x**y = ", intX**intY)
+
+
 
